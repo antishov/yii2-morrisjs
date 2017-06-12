@@ -1,0 +1,18 @@
+{
+    "name": "antishov/yii2-morrisjs",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "morris", "chart"],
+    "support": {
+        "issues": "https://github.com/antishov/yii2-morrisjs/issues",
+        "source": "https://github.com/antishov/yii2-morrisjs"
+    },
+    "authors": [
+        {
+            "name": "Antishov Viktor",
+            "email": "antishov.viktor@gmai.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.1.0"
+    }
+}
