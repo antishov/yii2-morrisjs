@@ -12,7 +12,7 @@ class Base extends Widget
     public $yKeys;
     public $labels;
     public $hideHover;
-    public $resize;
+    public $resize = false;
     public $gridTextSize = 12;
 
     protected $type;
