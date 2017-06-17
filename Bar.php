@@ -1,6 +1,6 @@
 <?php
 
-namespace app\components\Morris;
+namespace antishov\Morris;
 
 use yii\helpers\ArrayHelper;
 
