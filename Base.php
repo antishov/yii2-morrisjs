@@ -41,6 +41,7 @@ class Base extends Widget
     protected function registerAssets()
     {
         MorrisAsset::register($this->view);
+        RaphaelAsset::register($this->view);
     }
 
     protected function getViewOptions()
