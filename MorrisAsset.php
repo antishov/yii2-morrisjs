@@ -6,13 +6,14 @@ use yii\web\AssetBundle;
 
 class MorrisAsset extends AssetBundle
 {
-    public $sourcePath = __DIR__ . '/assets';
-
-    public $js = [
-        'js/morrisjs.js',
-    ];
-
+    public $sourcePath = '@bower/morrisjs';
     public $depends = [
-        'yii\web\JqueryAsset',
+        'yii\web\YiiAsset'
     ];
+
+    public function init()
+    {
+        $this->js = YII_DEBUG ? ['morris.js'] : ['morris.min.js'];
+    } 
+
 }
