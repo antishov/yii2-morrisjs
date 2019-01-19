@@ -2,3 +2,4 @@
 .idea
 /vendor/
 /Docker/nginx/logs/*.log
+/runtime/
