@@ -30,5 +30,8 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "require-dev": {
+        "codeception/codeception": "^2.5"
+    }
 }
