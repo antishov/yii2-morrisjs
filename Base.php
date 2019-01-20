@@ -54,7 +54,7 @@ class Base extends Widget
             'yKeys' => $this->yKeys,
             'labels' => $this->labels,
             'hideHover' => $this->hideHover,
-            'resize' => $this->resize,
+            'resize' => (int) $this->resize,
             'gridTextSize' => $this->gridTextSize,
         ];
     }
