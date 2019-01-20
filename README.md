@@ -110,6 +110,13 @@ echo Morris\Bar::widget([
 
 `barColors` - Array containing colors for the series bars.
 
+## Examples
+
+All examples are stored in the `example` subdirectory and based on Yii2 framework with [Docker](https://www.docker.com/). 
+You are free to set up your own host. 
+
+See `Dockerfile` and `docker-compose.yml` to get further information.
+
 ## License
 
 **yii2-morrisjs** is released under the MIT License. See the bundled `LICENSE.md` for details.
