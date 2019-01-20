@@ -35,9 +35,9 @@ echo Morris\Line::widget([
      'gridTextSize' => 11,
      'element' => 'lineChart',
      'data' => [
-         ['date' => '14/06/2017', 'value' => 2],
-         ['date' => '15/06/2017', 'value' => 4],
-         ['date' => '16/06/2017', 'value' => 1]
+         ['date' => '2017-06-14', 'value' => 2],
+         ['date' => '2017-06-15', 'value' => 4],
+         ['date' => '2017-06-16', 'value' => 1]
      ],
      'xKey' => 'date',
      'yKeys' => ['value'],
