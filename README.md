@@ -1,6 +1,8 @@
 yii2-morrisjs
 ===================
 
+[![Build Status](https://travis-ci.org/antishov/yii2-morrisjs.svg?branch=master)](https://travis-ci.org/antishov/yii2-morrisjs)
+
 This is the [MorrisJS](http://morrisjs.github.io/morris.js/index.html) widget. It's a very simple API for drawing line and bar charts.
 
 ## Installation
