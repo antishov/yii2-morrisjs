@@ -1,4 +1,4 @@
-FROM php:5.6-fpm
+FROM php:7.0-fpm
 
 ARG GITHUB_AT
 
@@ -18,6 +18,5 @@ COPY . /var/www/yii2-morrisjs
 WORKDIR /var/www/yii2-morrisjs
 
 RUN composer config --global github-oauth.github.com $GITHUB_AT
-RUN composer update
 
 CMD ["php-fpm"]
