@@ -5,11 +5,13 @@ suites:
         actor: UnitTester
         modules:
             enabled:
-                # add more modules here
+                - Yii2:
+                    configFile: 'example/config/web.php'
                 - Asserts
 settings:
     shuffle: true
     lint: true
+    bootstrap: _bootstrap.php
 paths:
     tests: tests
     output: tests/_output
